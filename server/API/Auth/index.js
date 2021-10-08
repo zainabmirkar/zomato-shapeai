@@ -1,15 +1,17 @@
 import express from 'express';
 
-
-// models
-import { UserModel } from '../../database/user';
-import { ValidateSignup, ValidateSignin } from '../../validation/auth';
-
-
 // for password hashing 
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import passport from 'passport';
+
+// models
+import { UserModel } from '../../database/user';
+
+// validation
+import { ValidateSignup, ValidateSignin } from '../../validation/auth';
+
+
 
 const Router = express.Router();   //The Express framework provides a router() method to create HTTP endpoints
 

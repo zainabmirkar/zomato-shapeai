@@ -18,8 +18,6 @@ zomato.use(cors());
 zomato.use(passport.initialize());
 zomato.use(passport.session());
 
-// passport configuration
-googleAuthConfig(passport);
 
 // microservice routes
 import Auth from "./API/Auth";
@@ -34,6 +32,12 @@ import Menu from "./API/menu";
 
 // import configs
 import googleAuthConfig from './config/google.config';
+import routeConfig from './config/route.config';
+
+
+// passport configuration
+googleAuthConfig(passport);
+routeConfig(passport);
 
 // database connection
 import ConnectDB from "./database/connection";
