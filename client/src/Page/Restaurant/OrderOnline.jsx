@@ -33,6 +33,55 @@ const OrderOnline = () => {
                  },
                 ]}
                />
+             <FoodList
+                
+                 items={[
+                 {
+                 price:"323",
+                 rating:3,
+                 description:"Who doesn’t love a good bowl of Hakka Noodles with their food?",
+                 title:"Pizza Hut",
+                 image:"https://b.zmtcdn.com/data/pictures/6/17430476/d942999a617e5321c280243d313ae93d_featured_v2.jpg?output-format=webp",
+                 },
+                ]}
+               />
+             <FoodList
+                
+                 items={[
+                 {
+                 price:"323",
+                 rating:3,
+                 description:"Who doesn’t love a good bowl of Hakka Noodles with their food?",
+                 title:"Pizza Hut",
+                 image:"https://b.zmtcdn.com/data/pictures/6/17430476/d942999a617e5321c280243d313ae93d_featured_v2.jpg?output-format=webp",
+                 },
+                ]}
+               />
+            
+             <FoodList
+                
+                 items={[
+                 {
+                 price:"315",
+                 rating:3,
+                 description:"Who doesn’t love a good bowl of Hakka Noodles with their food?",
+                 title:"Supreme Hakka Noodles",
+                 image:"https://b.zmtcdn.com/data/dish_photos/9e8/1e1ca8b551f8b40b022ac7504095e9e8.jpg?fit=around|130:130&crop=130:130;*,*",
+                 },
+                ]}
+               />
+             <FoodList
+               
+                 items={[
+                 {
+                 price:"315",
+                 rating:3,
+                 description:"Who doesn’t love a good bowl of Hakka Noodles with their food?",
+                 title:"Supreme Hakka Noodles",
+                 image:"https://b.zmtcdn.com/data/dish_photos/9e8/1e1ca8b551f8b40b022ac7504095e9e8.jpg?fit=around|130:130&crop=130:130;*,*",
+                 },
+                ]}
+               />
             
            </section>
            </div>
